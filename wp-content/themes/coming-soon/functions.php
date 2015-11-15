@@ -10,6 +10,8 @@ function theme_enqueue_style() {
 function theme_enqueue_script() {
     wp_enqueue_script( 'jquery-js', get_template_directory_uri() . '/js/jquery-2.1.4.min.js', [], '', true );
     wp_enqueue_script( 'bootstrap-js', get_template_directory_uri() . '/js/bootstrap.min.js', [], '', true );
+    wp_enqueue_script( 'app-js', get_template_directory_uri() . '/js/app.js', [], '', true );
+    gravity_form_enqueue_scripts( 1, true );
 }
 
 add_action( 'wp_enqueue_scripts', 'theme_enqueue_style' );
