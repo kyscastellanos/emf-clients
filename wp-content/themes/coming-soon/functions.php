@@ -35,5 +35,3 @@ add_filter( 'gform_submit_button', 'form_submit_button', 10, 2 );
 function form_submit_button( $button, $form ) {
     return "<button class='button btn btn-success btn-md' style='margin-left:auto;margin-right:auto;display: block' id='gform_submit_button_{$form['id']}'><span>". get_field('quote_1') ."</span></button>";
 }
-
-include_once('acf.php');
