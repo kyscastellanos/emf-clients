@@ -122,19 +122,19 @@
      data-image-src="<?= '/wp-content/themes/coming-soon/img/parallax2.jpg' ?>">
 
     <div class="row">
-        <div id="soon" class="col-xs-12">
-            <h2 style="margin-bottom: 30px;"><?= $message2; ?></h2>
-            <button id="quote2" type="button" class="btn btn-success btn-lg">
-                <?= $quote2; ?>
-            </button>
-        </div>
-
         <div class="col-xs-12 col-md-10 col-md-offset-1 testimonials">
             <i class="fa fa-quote-left fa-2x"></i>
             <span><?= $testimonial_content2; ?></span>
             <i class="fa fa-quote-right"></i>
             <br>
             <p class="testimonials_sign"><?= $testimonial_author2; ?></p>
+        </div>
+        
+        <div id="soon" class="col-xs-12">
+            <h2 style="margin-bottom: 30px;"><?= $message2; ?></h2>
+            <button id="quote2" type="button" class="btn btn-success btn-lg">
+                <?= $quote2; ?>
+            </button>
         </div>
 
     </div>
