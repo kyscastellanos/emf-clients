@@ -129,8 +129,8 @@
             <br>
             <p class="testimonials_sign"><?= $testimonial_author2; ?></p>
         </div>
-        
-        <div id="soon" class="col-xs-12">
+
+        <div id="soon" class="col-xs-12" style="margin-bottom: 30px;">
             <h2 style="margin-bottom: 30px;"><?= $message2; ?></h2>
             <button id="quote2" type="button" class="btn btn-success btn-lg">
                 <?= $quote2; ?>
