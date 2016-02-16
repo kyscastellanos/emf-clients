@@ -53,7 +53,7 @@
     </div>
 </div>
 
-<div class="container parallax-container" data-parallax="scroll" data-position="top" data-bleed="10"
+<div class="container-fluid parallax-container" data-parallax="scroll" data-position="top" data-bleed="10"
      data-image-src="<?= '/wp-content/themes/coming-soon/img/parallax1.jpg' ?>" >
 
     <div class="row">
@@ -118,7 +118,7 @@
     </div>
 </div>
 
-<div class="container parallax-container" data-parallax="scroll" data-position="top" data-bleed="10"
+<div class="container-fluid parallax-container" data-parallax="scroll" data-position="top" data-bleed="10"
      data-image-src="<?= '/wp-content/themes/coming-soon/img/parallax2.jpg' ?>">
 
     <div class="row">
