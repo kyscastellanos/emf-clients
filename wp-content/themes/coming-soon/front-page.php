@@ -54,11 +54,11 @@
 </div>
 
 <div class="parallax-container" data-parallax="scroll" data-position="top" data-bleed="10"
-     data-image-src="<?= 'http://emf-clients.dev/wp-content/themes/coming-soon/img/parallax1.jpg' ?>"  >
+     data-image-src="<?= '/wp-content/themes/coming-soon/img/parallax1.jpg' ?>" >
 
     <div class="row">
         <div id="logo" class="col-xs-12">
-            <img src="<?= get_template_directory_uri() . '/img/logo.png' ?>">
+            <img src="<?= '/wp-content/themes/coming-soon/img/logo.png' ?>">
         </div>
 
         <div id="soon" class="col-xs-12">
@@ -119,7 +119,7 @@
 </div>
 
 <div class="parallax-container" data-parallax="scroll" data-position="top" data-bleed="10"
-     data-image-src="<?= 'http://emf-clients.dev/wp-content/themes/coming-soon/img/parallax2.jpg' ?>">
+     data-image-src="<?= '/wp-content/themes/coming-soon/img/parallax2.jpg' ?>">
 
     <div class="row">
         <div id="soon" class="col-xs-12">
