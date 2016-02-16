@@ -29,3 +29,8 @@ function disable_wp_emojicons() {
     add_filter( 'tiny_mce_plugins', 'disable_emojicons_tinymce' );
 }
 add_action( 'init', 'disable_wp_emojicons' );
+
+add_filter( 'gform_submit_button', 'form_submit_button', 10, 2 );
+function form_submit_button( $button, $form ) {
+    return "<button class='button btn btn-success btn-md' style='margin-left:auto;margin-right:auto;display: block' id='gform_submit_button_{$form['id']}'><span>GET A FREE QUOTE NOW</span></button>";
+}
